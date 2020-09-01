@@ -1,0 +1,28 @@
+$(document).ready(function(){
+    if($(window).width()>992){
+    $(window).scroll(function(){
+        if($(this).scrollTop()>0){
+            $("#navbarlarge").css({"padding":"0.3%","height":"20vh"})
+            $("#logolarge").css({"height":"60%"})
+            $("#navlinkslarge").css({"padding":"0.3%","font-size":"0.8em"})
+        }
+        else{
+            $("#navbarlarge").css({"padding":"2%","height":"100vh"})
+            $("#logolarge").css({"height":"70%"})
+            $("#navlinkslarge").css({"padding":"5%","font-size":"0.9em"})
+        }
+    })
+    }
+    else{
+        $(window).scroll(function(){
+            if($(this).scrollTop()>0){
+                $("#navbarsmall").css({"height":"15vh"})
+                $("#logosmall").css({"height":"100%"})
+            }
+            else{
+                $("#navbarsmall").css({"height":"100vh"})
+                $("#logosmall").css({"height":"50%"})
+            }
+        })
+    }
+})
