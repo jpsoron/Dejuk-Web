@@ -41,7 +41,7 @@
     color: #050505;
     border-color: #050505;
     border-width: 0.1em 0em 0.1em 0em;
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 
 #override h2{
@@ -64,9 +64,8 @@
 
 #override p{
     text-align: center;
-    margin: 0.5rem;
+    margin: 2rem;
     font-family: CodeBold;
-    padding: 0.5%;
     color: #050505;
     font-size: 1.2rem;
 }
@@ -90,7 +89,7 @@
 #dejuklogo{
     width: 100%;
     padding: 1%;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 #navbar{
@@ -107,7 +106,9 @@
     text-align: top;
     vertical-align: middle;
     text-align: center;
-    transition: 0.4s;
+    border-bottom: #5A9E6D;
+    border-style: solid;
+    border: 0 0 0 1%;
 }
 
 #dejuklogo.minimized{
@@ -124,10 +125,34 @@
     height: 100vh;
 }
 
+.imgparallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4% 0;
+}
+
+#img1 {
+    background-image: url("../img/img1small.jpg");
+}
+
+#img2 {
+    background-image: url("../img/img2small.png");
+}
+
+.carousel-img{
+    width: 65vw;
+}
+
 @media only screen and (min-width: 768px) {
 
 #override h1{
     margin: 2rem 12rem 2rem 12rem;
+}
+
+#override p{
+    
 }
 
 #dejuklogo{
@@ -152,7 +177,7 @@
 }
 
 #navbar.minimized{
-    height: 20vh;
+    height: 18vh;
     padding: 0.5%;
 }
 
@@ -164,11 +189,11 @@
 
 #override a{
     margin: 1%;
-    font-size: 1rem;
 }
 
-.largelinks{
-    
+#img1 {
+    background-image: url("../img/img1large.jpg");
+    padding: 5%;
 }
 
 }
@@ -176,12 +201,7 @@
 @media only screen and (min-width: 992px) {
 
     #override h1{
-        margin: 2rem 22rem 2rem 22rem;
-    }
-
-    #navbar.minimized{
-        height: 20vh;
-        padding: 0.5%;
+        margin: 2rem 20rem 2rem 20rem;
     }
 
     #dejuklogo.minimized{
@@ -192,7 +212,14 @@
 
     #override a{
         margin: 5%;
-        font-size: 1rem;
+    }
+
+    .carousel-img{
+        width: 40vw;
+    }
+
+    #img2 {
+        background-image: url("../img/img2large.png");
     }
 
 }
