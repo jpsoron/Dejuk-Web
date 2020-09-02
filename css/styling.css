@@ -98,7 +98,7 @@
     z-index: 1000;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/headerbg.jpg);
+    background-image: url(../img/headerbg.JPG);
     background-size: 100%;
     transition: 0.4s;
     position: fixed;
@@ -134,7 +134,7 @@
 }
 
 #img1 {
-    background-image: url("../img/img1small.jpg");
+    background-image: url("../img/img1small.JPG");
 }
 
 #img2 {
@@ -188,7 +188,7 @@
 }
 
 #img1 {
-    background-image: url("../img/img1large.jpg");
+    background-image: url("../img/img1large.JPG");
     padding: 5%;
 }
 
