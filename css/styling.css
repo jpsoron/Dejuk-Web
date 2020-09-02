@@ -168,7 +168,7 @@
     z-index: 1000;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/navbg.JPG);
+    background-image: url(../img/headerbg.JPG);
     background-size: 100%;
     position: fixed;
     overflow: hidden;
@@ -201,6 +201,10 @@
     background-image: url("../img/img2large.png");
 }
 
+.carousel-img{
+    width: 10vw;
+}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -224,8 +228,6 @@
         margin: 5%;
     }
 
-    .carousel-img{
-        width: 40vw;
-    }
+    
 
 }
