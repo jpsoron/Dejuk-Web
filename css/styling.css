@@ -145,6 +145,11 @@
     width: 65vw;
 }
 
+.eco{
+    color: #5A9E6D !important;
+    border-color: #5A9E6D !important;
+}
+
 @media only screen and (min-width: 768px) {
 
 #override h1{
