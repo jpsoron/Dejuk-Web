@@ -169,3 +169,33 @@
     color: #050505;
     font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 768px) {
+    #bootstrap-overrides h1{
+        font-family: CodeBold;
+        padding: 0.5%;
+        margin: 2rem 8rem 2rem 8rem;
+        text-align: center;
+        border-style: solid;
+        color: #050505;
+        border-color: #050505;
+        border-width: 0.1em 0em 0.1em 0em;
+        font-size: 2rem;
+    }
+    
+    #bootstrap-overrides h2{
+        font-family: CodeBold;
+        text-align: center;
+        margin: 2rem 8rem 2rem 8rem;
+        color: #454545;
+        font-size: 2.5rem;
+    }
+    
+    #bootstrap-overrides p{
+        margin: 2rem 8rem 2rem 8rem;
+        font-family: CodeBold;
+        padding: 1%;
+        color: #050505;
+        font-size: 1.2rem;
+    }
+  }

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    if($(window).width()>992){
+    if($(window).width()>768){
     $(window).scroll(function(){
         if($(this).scrollTop()>0){
             $("#navbarlarge").css({"padding":"0.3%","height":"20vh"})
