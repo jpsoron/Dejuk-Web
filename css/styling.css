@@ -177,7 +177,7 @@
 }
 
 #navbar.minimized{
-    height: 18vh;
+    height: 22vh;
     padding: 0.5%;
 }
 
@@ -208,6 +208,11 @@
         height: 10vh;
         width: auto;
         padding: 0;
+    }
+
+    #navbar.minimized{
+        height: 20vh;
+        padding: 1%;
     }
 
     #override a{
