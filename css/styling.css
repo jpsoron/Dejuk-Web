@@ -87,14 +87,15 @@
 }
 
 #dejuklogo{
-    width: 100%;
+    width:100%;
+    height: auto;
     padding: 1%;
     transition: 0.4s;
 }
 
 #navbar{
     margin: 0px;
-    padding: 0px;
+    padding: 5%;
     z-index: 1000;
     width: 100vw;
     height: 100vh;
@@ -106,14 +107,13 @@
     text-align: top;
     vertical-align: middle;
     text-align: center;
-    border-bottom: #5A9E6D;
+    border-bottom: #050505;
     border-style: solid;
-    border: 0 0 0 1%;
+    border: 0 0 0 0.4%;
 }
 
 #dejuklogo.minimized{
-    height: 100%;
-    width: auto;
+    width: 20%;
 }
 
 #navbar.minimized{
@@ -122,12 +122,12 @@
 }
 
 .whitespace{
-    height: 100vh;
+    height: 45vh;
 }
 
 .imgparallax{
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4% 0;
@@ -168,7 +168,7 @@
     z-index: 1000;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/headerbg.jpg);
+    background-image: url(../img/navbg.JPG);
     background-size: 100%;
     position: fixed;
     overflow: hidden;
