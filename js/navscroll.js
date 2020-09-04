@@ -1,6 +1,8 @@
 $(document).ready(function(){
+    $("#mainbody").css("visibility","hidden");
     $(window).scroll(function(){
         if($(this).scrollTop()>0){
+            $("#mainbody").css("visibility","visible");
             $("#navbar, #dejuklogo").addClass("minimized");
             $("#override a.navbarlink").removeClass("largelink");
             $("#navchevron").css("opacity","0");
