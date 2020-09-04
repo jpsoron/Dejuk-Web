@@ -14,42 +14,43 @@
     <body id="override">
         <header>
             <nav id="navbar">
-                <img id="dejuklogo" src="img/DejukLogo.png">
+                <img id="dejuklogo" src="img/DejukTextTrspt.png">
                 <div id="smallnav" class="d-md-none">
-                    <a style="margin: 0; padding: 0;">
-                        <svg width="auto" height="5em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="padding:0;">
-                        <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/></svg>
-                    </a>
+                    
                 </div>
                 <div id="largenav" class="d-none d-md-block">
-                    <div class="container" id="navlinkslarge">
+                    <div class="container-fluid" id="navlinkslarge">
                         <div class="row">
                             <div class="col-md-2">
-                                <a>INICIO</a>
+                                <a class="largelink navbarlink" href="#section1">INICIO</a>
                             </div>
                             <div class="col-md-2">
-                                <a>COMO SE USA</a>
+                                <a class="largelink navbarlink" href="#section2">COMO SE USA</a>
                             </div>
                             <div class="col-md-2">
-                                <a>DISEÑO ECO FRIENDLY</a>
+                                <a class="largelink navbarlink" href="#section3">DISEÑO ECO FRIENDLY</a>
                             </div>
                             <div class="col-md-2">
-                                <a>QUIENES SOMOS</a>
+                                <a class="largelink navbarlink" href="#section4">QUIENES SOMOS</a>
                             </div>
                             <div class="col-md-2">
-                                <a>CONTACTO</a>
+                                <a class="largelink navbarlink" href="#section5">CONTACTO</a>
                             </div>
                             <div class="col-md-2">
-                                <a>CONSEGUI TU DEJUK</a>
+                                <a class="largelink navbarlink" href="#section6">CONSEGUI TU DEJUK</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <a style="margin: 0; padding: 1%;" id="navchevron" href="#section1">
+                    <svg width="auto" height="5em" viewBox="0 0 16 16" class="bi bi-chevron-compact-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="padding:0;">
+                    <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/></svg>
+                </a>
             </nav>
         </header>
         <div class="whitespace"></div>
-        <h2>INTUITIVO, PRACTICO Y SUSTENTABLE.</h2>
         <section id="section1">
+        <h2>INTUITIVO, PRACTICO Y SUSTENTABLE.</h2>
         <div id="img1" class="imgparallax">
             <div class="container"><div class="row">
                 <div class="col">
@@ -128,11 +129,15 @@
         </section>
 
         <section id="section4">
-            <h1>QUIENES SOMOS</h1>
+            <div class="imgparallax" id="img3">
+                <h1>QUIENES SOMOS</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
         </section>
 
         <section id="section5">
             <h1>CONTACTO</h1>
+
         </section>
 
         <section id="section6">
@@ -143,11 +148,6 @@
 
         </footer>
 
-        <h1>This is heading 1</h1>
-        <h2>This is heading 2</h2>
-        <h3>This is heading 3</h3>
-        <p>This is a paragraph</p>
-        <a>This is a link</a>
         <script src="js/navscroll.js"></script>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

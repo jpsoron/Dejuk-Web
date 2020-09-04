@@ -1,3 +1,5 @@
+/*EXTRA SMALL*/
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +28,12 @@
 @font-face {
     font-family: CoutureBold;
     src: url(../fonts/couture-bld.otf);
+}
+
+section:before {
+    height: 0vh;
+    content: "";
+    display:block;
 }
 
 #override{
@@ -75,10 +83,13 @@
     text-align: center;
     margin: 0.5rem;
     font-family: CodeBold;
-    padding: 0.5%;
     color: #050505;
     font-size: 1.2rem;
     transition: 0.4s;
+}
+
+#override a.largelink{
+    font-size: 1.5rem;
 }
 
 #override a:hover{
@@ -89,13 +100,24 @@
 #dejuklogo{
     width:100%;
     height: auto;
-    padding: 1%;
     transition: 0.4s;
+}
+
+#navchevron{
+    opacity: 1;
+    padding-top: 5%;
+    transition: 0.4s;
+}
+
+#navlinkslarge{
+    max-width: 100%;
+    margin:0;
+    padding:0;
 }
 
 #navbar{
     margin: 0px;
-    padding: 5%;
+    padding-top: 25%;
     z-index: 1000;
     width: 100vw;
     height: 100vh;
@@ -113,12 +135,13 @@
 }
 
 #dejuklogo.minimized{
-    width: 20%;
+    height: 14vh;
+    width: auto;
 }
 
 #navbar.minimized{
     height: 15vh;
-    padding: 1%;
+    padding-top: 1%;
 }
 
 .whitespace{
@@ -150,6 +173,28 @@
     border-color: #5A9E6D !important;
 }
 
+/*SMALL*/
+
+@media only screen and (min-width: 576px){
+
+section:before {
+    height: 17vh;
+    content: "";
+    display:block;
+}
+
+.imgparallax{
+    padding: 1%;
+}
+
+#dejuklogo.minimized{
+    height:16vh;
+}
+
+}
+
+/*MEDIUM*/
+
 @media only screen and (min-width: 768px) {
 
 #override h1{
@@ -164,7 +209,7 @@
 }
 
 #navbar{
-    padding: 10%;
+    padding: 1%;
     z-index: 1000;
     width: 100vw;
     height: 100vh;
@@ -178,7 +223,7 @@
 }
 
 #navbar.minimized{
-    height: 22vh;
+    height: 18vh;
     padding: 0.5%;
 }
 
@@ -190,15 +235,24 @@
 
 #override a{
     margin: 1%;
+    font-size: 1rem;
+}
+
+.imgparallax{
+    padding: 1%;
 }
 
 #img1 {
     background-image: url("../img/img1large.JPG");
-    padding: 5%;
+    
 }
 
 #img2 {
     background-image: url("../img/img2large.png");
+}
+
+#img3{
+    background-image: url("");
 }
 
 .carousel-img{
@@ -207,27 +261,52 @@
 
 }
 
+/*LARGE*/
+
 @media only screen and (min-width: 992px) {
 
-    #override h1{
-        margin: 2rem 20rem 2rem 20rem;
-    }
+section:before {
+    height: 20vh;
+    content: "";
+    display:block;
+}
 
-    #dejuklogo.minimized{
-        height: 10vh;
-        width: auto;
-        padding: 0;
-    }
+#override h1{
+    margin: 2rem 20rem 2rem 20rem;
+}
 
-    #navbar.minimized{
-        height: 20vh;
-        padding: 1%;
-    }
+#dejuklogo.minimized{
+    height: 10vh;
+    width: auto;
+    padding: 0;
+}
 
-    #override a{
-        margin: 5%;
-    }
+#navbar.minimized{
+    height: 20vh;
+    padding: 1%;
+}
 
+#override a{
+    margin: 5%;
+    font-size: 1.4rem
+}
+
+}
+
+/*EXTRA LARGE*/
+
+@media only screen and (min-width: 1200px){
     
+#override a{
+    margin: 1%;
+    font-size: 1.5rem;
+}
 
+#override a.largelink{
+    font-size: 2rem;
+}
+
+.carousel-img{
+    width: 30%;
+}
 }
