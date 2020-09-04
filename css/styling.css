@@ -30,11 +30,13 @@
     src: url(../fonts/couture-bld.otf);
 }
 
-#loading{
-    background-color: #050505;
-    height: 100%;
-    width: 100%;
+/*BEFORE WEBSITE LOADS*/
+
+#override{
+    visibility: hidden;
 }
+
+/*ONCE WEBSITE HAS LOADED*/
 
 section:before {
     height: 0vh;
@@ -194,7 +196,7 @@ section:before {
 }
 
 #dejuklogo.minimized{
-    height:16vh;
+    height:14vh;
 }
 
 }
