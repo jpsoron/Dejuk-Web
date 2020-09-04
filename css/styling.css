@@ -30,6 +30,12 @@
     src: url(../fonts/couture-bld.otf);
 }
 
+#loading{
+    background-color: #050505;
+    height: 100%;
+    width: 100%;
+}
+
 section:before {
     height: 0vh;
     content: "";
@@ -121,7 +127,7 @@ section:before {
     z-index: 1000;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/headerbg.JPG);
+    background-image: url(../img/navbarbg.png);
     background-size: 100%;
     transition: 0.4s;
     position: fixed;
@@ -213,7 +219,6 @@ section:before {
     z-index: 1000;
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/headerbg.JPG);
     background-size: 100%;
     position: fixed;
     overflow: hidden;
@@ -308,5 +313,9 @@ section:before {
 
 .carousel-img{
     width: 30%;
+}
+
+#carouseltext{
+    margin: 2rem 20rem 2rem 20rem;
 }
 }
