@@ -5,12 +5,12 @@ $(document).ready(function(){
             $("#mainbody").css("visibility","visible");
             $("#navbar, #dejuklogo").addClass("minimized");
             $("#override a.navbarlink").removeClass("largelink");
-            $("#navchevron").css("opacity","0");
+            $("#navchevron").css({"opacity":"0","display":"none"});
         }
         else{
             $("#navbar, #dejuklogo").removeClass("minimized");
             $("#override a.navbarlink").addClass("largelink");
-            $("#navchevron").css("opacity","1");
+            $("#navchevron").css({"opacity":"1","display":"block"});
         }
     })
 })
