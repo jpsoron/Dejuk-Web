@@ -10,6 +10,10 @@
     background: transparent;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: Chalkier;
     src: url(../fonts/Chalkier.ttf);
@@ -25,13 +29,8 @@
     src: url(../fonts/CODELight.otf);
 }
 
-@font-face {
-    font-family: CoutureBold;
-    src: url(../fonts/couture-bld.otf);
-}
-
 section:before {
-    height: 0vh;
+    height: 14vh;
     content: "";
     display:block;
 }
@@ -44,7 +43,7 @@ section:before {
     font-family: CodeBold;
     padding: 0.5%;
     text-align: center;
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 2rem 1rem 1rem 2rem;
     border-style: solid;
     color: #050505;
     border-color: #050505;
@@ -146,7 +145,7 @@ section:before {
 }
 
 .whitespace{
-    height: 45vh;
+    height: 27vh;
 }
 
 .imgparallax{
@@ -158,20 +157,38 @@ section:before {
 }
 
 #img1 {
-    background-image: url("../img/img1small.JPG");
+    background-image: url("../img/img1small.png");
 }
 
 #img2 {
-    background-image: url("../img/img2small.png");
+    background-image: url("../img/img2.png");
+}
+
+#img4{
+    background-image: url("../img/img4small.JPG");
+}
+
+#imgfooter{
+    background-image: url("../img/navbarbg.png");
 }
 
 .carousel-img{
     width: 65vw;
 }
 
-.eco{
-    color: #5A9E6D !important;
-    border-color: #5A9E6D !important;
+#override .eco{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+#override .section1text{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    
+}
+
+#override .parallaxtext{
+    text-shadow: 0.1rem 0.1rem 0.2rem #050505;
 }
 
 /*SMALL*/
@@ -244,20 +261,24 @@ section:before {
 }
 
 #img1 {
-    background-image: url("../img/img1large.JPG");
+    background-image: url("../img/img1large.png");
     
 }
 
-#img2 {
-    background-image: url("../img/img2large.png");
+#img2{
+
 }
 
 #img3{
-    background-image: url("");
+    background-image: url("../img/img3.jpg");
 }
 
-.carousel-img{
-    width: 10vw;
+#img4{
+    background-image: url("../img/img4.jpeg");
+}
+
+#override p.outertext{
+    margin: 1% 5% 1% 5%;
 }
 
 }
@@ -307,11 +328,27 @@ section:before {
     font-size: 2rem;
 }
 
-.carousel-img{
-    width: 30%;
+.carousel-inner{
+    width: 100vw;
+    height: 60vh;
+    width: auto;
 }
 
-#carouseltext{
+}
+
+@media only screen and (min-width: 1330px){
+    #override p.outertext{
+        margin: 1% 10% 1% 10%;
+    }
+}
+
+@media only screen and (min-width: 1790px){
+#override p.outertext{
     margin: 2rem 20rem 2rem 20rem;
 }
+
+#override p.outertext{
+    margin: 1% 15% 1% 15%;
+}
+
 }
