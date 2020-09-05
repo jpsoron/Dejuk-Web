@@ -164,6 +164,10 @@ section:before {
     background-image: url("../img/img2.png");
 }
 
+#img3{
+    background-image: url("../img/img3.jpg");
+}
+
 #img4{
     background-image: url("../img/img4small.JPG");
 }
@@ -270,11 +274,11 @@ section:before {
 }
 
 #img3{
-    background-image: url("../img/img3.jpg");
+    
 }
 
 #img4{
-    background-image: url("../img/img4.jpeg");
+    background-image: url("../img/img4large.jpeg");
 }
 
 #override p.outertext{
