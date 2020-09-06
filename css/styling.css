@@ -62,11 +62,14 @@ section:before {
 
 #override h3{
     font-family: Chalkier;
+    font-weight: lighter;
     padding: 0.5%;
     text-align: center;
     margin: 0.5rem;
     color: #050505;
     font-size: 2.4rem;
+    display: inline;
+    vertical-align: auto;
 }
 
 #override p{
@@ -94,6 +97,32 @@ section:before {
 #override a:hover{
     color:#5A9E6D;
     text-decoration: underline;
+}
+
+.icon{
+    width: 4rem;
+    height: auto;
+    vertical-align: middle;
+    display: inline;
+}
+
+#social{
+    text-align: center;
+}
+
+.socialsection{
+    text-align: justify;
+    vertical-align: middle;
+    padding: 0 5% 0 5%;
+    margin: 1% 0 1% 0;
+}
+
+#override h3.socialtext{
+    font-size: 1.6rem;
+    margin:0;
+    padding:0;
+    vertical-align: middle;
+    text-align: left;
 }
 
 #dejuklogo{
@@ -154,6 +183,16 @@ section:before {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4% 0;
+    text-align: center;
+}
+
+button.mercadopago-button{
+    font-family: CodeBold;
+    text-align: center;
+    background-color: #5A9E6D;
+    height: 8vh;
+    width: 30vw;
+    font-size: 1.2rem;
 }
 
 #img1 {
@@ -213,7 +252,16 @@ section:before {
     height: 14vh;
     align-self: center;
 }
+}
 
+@media only screen and (min-width: 690px) {
+#override h3.socialtext{
+    font-size: 2.5rem;
+}
+
+.icon{
+    width: 5rem;
+}
 }
 
 /*MEDIUM*/
@@ -287,6 +335,16 @@ section:before {
 
 }
 
+@media only screen and (min-width: 780px) {
+    #override h3.socialtext{
+        font-size: 3rem;
+    }
+
+    .icon{
+        width: 6rem;
+    }
+}
+
 /*LARGE*/
 
 @media only screen and (min-width: 992px) {
@@ -317,6 +375,18 @@ section:before {
     font-size: 1.4rem
 }
 
+}
+
+@media only screen and (min-width: 1000px){
+#override h3.socialtext{
+    font-size: 3.5rem;
+}
+}
+
+@media only screen and (min-width: 1120px){
+.socialsection{
+    padding: 0 10% 0 10%;
+}
 }
 
 /*EXTRA LARGE*/
