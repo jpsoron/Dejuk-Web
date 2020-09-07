@@ -12,7 +12,7 @@
 
 @media only screen and (min-width: 355px){
     #override h3.socialtext{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -269,17 +269,17 @@ section:before {
 
 @media only screen and (min-width: 690px) {
 #override h3.socialtext{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .icon{
     width: 5rem;
 }
-}
 
 #img3{
     max-width: 100vw;
     align-self: center;
+}
 }
 
 /*MEDIUM*/
@@ -356,7 +356,7 @@ section:before {
 
 @media only screen and (min-width: 780px) {
     #override h3.socialtext{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .icon{
@@ -398,11 +398,12 @@ section:before {
     max-height: 50vh;
 
 }
+}
 
 @media only screen and (min-width: 1000px){
-#override h3.socialtext{
-    font-size: 3.5rem;
-}
+    #social{
+        padding: 0 2% 0 2%;
+    }
 }
 
 @media only screen and (min-width: 1120px){
@@ -445,6 +446,10 @@ section:before {
 
 #override p.outertext{
     margin: 1% 15% 1% 15%;
+}
+
+#social{
+    padding: 0 5% 0 5%;
 }
 
 }
