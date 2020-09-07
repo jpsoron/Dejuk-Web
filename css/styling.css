@@ -67,7 +67,7 @@ section:before {
 }
 
 #override h3{
-    font-family: Chalkier;
+    font-family: CodeBold;
     font-weight: lighter;
     padding: 0.5%;
     text-align: center;
