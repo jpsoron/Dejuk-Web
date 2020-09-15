@@ -12,7 +12,7 @@
 
 @media only screen and (min-width: 355px){
     #override h3.socialtext{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -86,6 +86,12 @@ section:before {
     font-size: 1.2rem;
 }
 
+#override p.psubheading{
+    font-size: 1.6rem;
+    margin: 0.5rem;
+    text-decoration: underline;
+}
+
 #override a{
     display: inline-block;
     text-align: center;
@@ -131,7 +137,7 @@ section:before {
     text-align: left;
 }
 
-#dejuklogo{
+a #dejuklogo{
     width:100%;
     height: auto;
     transition: 0.4s;
@@ -311,7 +317,7 @@ section:before {
 }
 
 #navbar.minimized{
-    height: 18vh;
+    height: 20vh;
     padding: 0.5%;
 }
 
@@ -356,7 +362,7 @@ section:before {
 
 @media only screen and (min-width: 780px) {
     #override h3.socialtext{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .icon{
@@ -386,11 +392,11 @@ section:before {
 
 #navbar.minimized{
     height: 20vh;
-    padding: 1%;
+    padding: 0;
 }
 
 #override a{
-    margin: 5%;
+    margin: 0;
     font-size: 1.4rem
 }
 
@@ -417,7 +423,7 @@ section:before {
 @media only screen and (min-width: 1200px){
     
 #override a{
-    margin: 1%;
+    margin: 0.5%;
     
 }
 
