@@ -10,12 +10,6 @@
     background: transparent;
 }
 
-@media only screen and (min-width: 355px){
-    #override h3.socialtext{
-        font-size: 1rem;
-    }
-}
-
 html {
     scroll-behavior: smooth;
 }
@@ -112,7 +106,7 @@ section:before {
 }
 
 .icon{
-    width: 4rem;
+    width: 3.5rem;
     height: auto;
     vertical-align: middle;
     display: inline;
@@ -130,7 +124,7 @@ section:before {
 }
 
 #override h3.socialtext{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     margin:0;
     padding:0;
     vertical-align: middle;
@@ -201,10 +195,13 @@ a #dejuklogo{
 button.mercadopago-button{
     font-family: CodeBold;
     text-align: center;
+    overflow: hidden;
     background-color: #5A9E6D;
-    height: 8vh;
-    width: 30vw;
-    font-size: 1.2rem;
+    height: 7vh;
+    width: 26vw;
+    vertical-align: middle;
+    font-size: 150%;
+    padding: 0;
 }
 
 #img1 {
@@ -247,9 +244,17 @@ button.mercadopago-button{
     text-shadow: 0.1rem 0.1rem 0.2rem #050505;
 }
 
+@media only screen and (min-width: 365px) {
+    
+    #override h3.socialtext{
+    font-size: 1rem;
+    }
+
+}
+
 @media only screen and (min-width: 400px){
 #override h3.socialtext{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 }
 
@@ -275,11 +280,11 @@ section:before {
 
 @media only screen and (min-width: 690px) {
 #override h3.socialtext{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .icon{
-    width: 5rem;
+    width: 3.6rem;
 }
 
 #img3{
@@ -369,6 +374,7 @@ section:before {
         width: 6rem;
     }
 }
+
 
 /*LARGE*/
 
